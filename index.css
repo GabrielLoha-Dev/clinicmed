@@ -94,10 +94,28 @@ input, #sym{
     align-items: center;
 }
 
+.tll{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
 .title{
     color: white;
     margin-bottom: 10px;
     font-weight: bolder;
+}
+
+.lll li{
+    margin-bottom: 30px;
+    list-style: none;
+    background-color: rgb(214, 214, 214);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
 }
 
 .cod p{

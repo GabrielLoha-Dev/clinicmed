@@ -12,5 +12,6 @@ function next() {
     screen_2.style.display = 'flex'
     const codigoGerado = gcode()
     labelCod.innerHTML = `Clinic Med - Codigo gerado:${codigoGerado}`
-    
+    window.open('list.html', '_blank')
+
 }
